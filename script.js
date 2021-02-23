@@ -7,7 +7,7 @@ window.addEventListener("load", function(){
     // -----------------------------------------------
 
 
-    
+
     // counter goes from 0 to 4 and then 0 and so on
     setInterval( () => { 
         if (count === 4){
@@ -15,7 +15,7 @@ window.addEventListener("load", function(){
         }else{
             count++;
         }
-    }, 2000);
+    }, 5000);
     // -----------------------------------------------
 
 
