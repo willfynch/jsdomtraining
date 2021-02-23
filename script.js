@@ -4,7 +4,10 @@ window.addEventListener("load", function(){
 
     // initialize counter
     let count = 0;
+    // -----------------------------------------------
 
+
+    
     // counter goes from 0 to 4 and then 0 and so on
     setInterval( () => { 
         if (count === 4){
@@ -13,12 +16,18 @@ window.addEventListener("load", function(){
             count++;
         }
     }, 2000);
+    // -----------------------------------------------
+
+
 
     // words array
-    words = ["blue", "red", "green", "yellow", "orange"];
+    let words = ["blue", "red", "green", "yellow", "orange"];
 
     // store the button in a variable
     let myBtn  = document.querySelector("button");
+    // -----------------------------------------------
+
+
 
 
     // event listener : when button clicked, change text and background color
@@ -28,7 +37,7 @@ window.addEventListener("load", function(){
         document.body.style.backgroundColor = words[count].toString();
     
     });
-
+    // -----------------------------------------------
 
 })
 
